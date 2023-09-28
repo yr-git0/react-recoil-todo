@@ -1,7 +1,5 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import { createGlobalStyle } from "styled-components";
+import ToDoList from "./ToDoList";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
@@ -66,6 +64,7 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <ToDoList />
     </>
   );
 }
